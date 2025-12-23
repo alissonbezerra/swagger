@@ -1,0 +1,21 @@
+swagger: '2.0'
+info:
+  title: Login page
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+  version: 1.0.0
+paths:
+  /saudacao:
+    get:
+      summary: Retorna uma mensagem de boas-vindas.
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Sucesso
+          schema:
+            type: object
+            properties:
+              mensagem:
+                type: string
+                example: "Olá, mundo!"
